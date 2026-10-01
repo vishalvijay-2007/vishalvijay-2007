@@ -35,9 +35,6 @@ A platform for managing startup progress, mentor engagement, and cohort activiti
 ### 🎓 EduWorld
 AI-powered education platform designed to support students with digital learning features.
 
-### 📝 Blogify API
-Backend API project for blog management and application services.
-
 ## 📫 Connect With Me
 
 - GitHub: https://github.com/vishalvijay-2007
