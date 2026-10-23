@@ -1,0 +1,31 @@
+name: Build profile README
+
+on:
+  push:
+    paths: ["profile.json", "build.py", "assets/photo.*"]
+  schedule:
+    - cron: "0 3 * * *"      # refreshes your real GitHub stats every day
+  workflow_dispatch:          # lets you press "Run workflow" manually
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate README and graphics
+        run: python build.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Refresh profile README"
+          git push

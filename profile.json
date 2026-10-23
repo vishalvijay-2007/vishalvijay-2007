@@ -1,0 +1,63 @@
+{
+  "github_username": "vishalvijay-2007",
+  "name": "Vishal Vijay",
+  "roles": ["AI & ML Student", "Full-Stack Developer"],
+  "tagline": "Building practical web apps and AI-powered solutions.",
+  "hero_tags": ["B.Tech Artificial Intelligence & Machine Learning", "Full-Stack Development"],
+  "status": "Always building",
+
+  "links": [
+    { "label": "Portfolio", "text": "vishalvijay-2007.github.io/portfolio", "url": "https://vishalvijay-2007.github.io/portfolio" },
+    { "label": "LinkedIn",  "text": "vishal-vijay-ba558b328", "url": "https://www.linkedin.com/in/vishal-vijay-ba558b328" },
+    { "label": "GitHub",    "text": "vishalvijay-2007", "url": "https://github.com/vishalvijay-2007" }
+  ],
+
+  "terminal": [
+    "$ whoami",
+    "Vishal Vijay · B.Tech AI & ML Student",
+    "$ cat interests.txt",
+    "Full-Stack Development · AI & Machine Learning",
+    "$ cat now.txt",
+    "Improving development and backend skills",
+    "$ ls ./shipped",
+    "agrivora/  startup-platform/  eduworld/"
+  ],
+  "about_cards": [
+    { "label": "Front to back",  "value": "React + Node", "note": "Express.js · Vite" },
+    { "label": "Where AI lives", "value": "Python",       "note": "AI & Machine Learning" },
+    { "label": "Currently into","value": "Backend",       "note": "Real-world software projects" }
+  ],
+
+  "skills": [
+    { "label": "Languages",      "lines": ["JavaScript · TypeScript", "Python · Java"], "footer": "" },
+    { "label": "Frontend",       "lines": ["React", "Vite"], "footer": "" },
+    { "label": "Backend",        "lines": ["Node.js", "Express.js"], "footer": "" },
+    { "label": "AI & ML",        "lines": ["Python", "AI & Machine Learning"], "footer": "" },
+    { "label": "Tools",          "lines": ["Git · GitHub"], "footer": "" },
+    { "label": "Leveling up",    "lines": ["Backend development", "Real-world projects"], "footer": "Always building" }
+  ],
+
+  "projects": [
+    {
+      "name": "AgriVora",
+      "kind": "Featured · AI",
+      "tagline": "Intelligent tools for farmers.",
+      "description": "AI-powered agriculture platform designed to provide digital tools and intelligent solutions for farmers."
+    },
+    {
+      "name": "Startup Management Platform",
+      "kind": "Full-stack",
+      "tagline": "Progress, mentors and cohorts in one place.",
+      "description": "A platform for managing startup progress, mentor engagement, and cohort activities."
+    },
+    {
+      "name": "EduWorld",
+      "kind": "Featured · AI",
+      "tagline": "Digital learning, powered by AI.",
+      "description": "AI-powered education platform designed to support students with digital learning features."
+    }
+  ],
+
+  "closing_line": "Building practical software, one project at a time.",
+  "closing_tags": "Full-Stack · AI & ML · Always building"
+}
